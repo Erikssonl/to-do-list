@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(188, 168, 144);
+
+}
+
+#content{
+    width: 40%;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+#to-do,
+#done{
+    margin-top: 20px;
+    border-bottom: 5px dotted  rgb(162, 142, 117);
+}
+
+h3{
+    color: rgb(83, 69, 52);
+}
