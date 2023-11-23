@@ -1,12 +1,20 @@
 body {
     background-color: rgb(188, 168, 144);
+}
 
+h1 {
+    text-align: center;
 }
 
 #content{
-    width: 40%;
-    margin: 100px auto;
-    padding: 10px;
+    max-width: 50%;
+    margin: 50px auto;
+    /* padding: 10px; */
+}
+
+#top-functions{
+    width: 50%;
+    margin: auto;
 }
 
 #to-do,
@@ -15,6 +23,6 @@ body {
     border-bottom: 5px dotted  rgb(162, 142, 117);
 }
 
-h3{
+h3, h1{
     color: rgb(83, 69, 52);
 }
