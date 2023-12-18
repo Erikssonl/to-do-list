@@ -12,21 +12,19 @@ choreBtn.addEventListener('click', function(e) {
         let choreToDo = document.createElement("INPUT");
         choreToDo.value = chore.value;
         choreToDo.disabled = true;
-        choreToDo.style.marginRight = '5px';
-        choreToDo.style.marginBottom = '5px';
+        choreToDo.style.marginRight = '20px';
         chore.value = "";
     
         let changeBtn = document.createElement('button')
         changeBtn.innerText = "Ändra";
-        changeBtn.style.marginBottom = '5px';
     
         let doneBtn = document.createElement('button')
         doneBtn.innerText = "Färdig";
-        doneBtn.style.margin = '0 0 5px 5px';
+        doneBtn.style.marginLeft = '20px';
     
         let deletBtn = document.createElement('button')
         deletBtn.innerText = "Radera";
-        deletBtn.style.margin = '0 0 5px 5px';
+        deletBtn.style.marginLeft = '20px';
     
         let li = document.createElement("li");
         li.appendChild(choreToDo);

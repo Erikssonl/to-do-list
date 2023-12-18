@@ -7,9 +7,24 @@ body {
     margin: 50px auto;
 }
 
+h1,
+h3{
+    font-family: "Dosis", sans-serif;
+}
+
+h1,
+#top-functions,
+#to-do{
+    margin-bottom: 50px;
+}
+
+#add-chore,
+#add-chore-btn{
+    margin-right: 20px;
+}
+
 #to-do,
 #done{
-    margin-top: 20px;
     border-bottom: 5px dotted  rgb(162, 142, 117);
 }
 
@@ -17,6 +32,14 @@ h3, h1{
     color: rgb(83, 69, 52);
 }
 
+h3{
+    margin-bottom: 30px;
+}
+
 button:hover{
     background-color: rgb(208, 207, 207);
+}
+
+li{
+    margin-bottom: 20px;
 }
