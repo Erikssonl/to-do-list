@@ -8,6 +8,11 @@ body {
 }
 
 h1,
+h3{
+    font-family: "Dosis", sans-serif;
+}
+
+h1,
 #top-functions,
 #to-do{
     margin-bottom: 50px;
