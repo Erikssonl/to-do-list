@@ -1,12 +1,10 @@
 body {
     background-color: rgb(188, 168, 144);
-
 }
 
 #content{
-    width: 40%;
-    margin: 100px auto;
-    padding: 10px;
+    max-width: 50%;
+    margin: 50px auto;
 }
 
 #to-do,
@@ -15,6 +13,10 @@ body {
     border-bottom: 5px dotted  rgb(162, 142, 117);
 }
 
-h3{
+h3, h1{
     color: rgb(83, 69, 52);
+}
+
+button:hover{
+    background-color: rgb(208, 207, 207);
 }
