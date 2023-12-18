@@ -22,11 +22,11 @@ choreBtn.addEventListener('click', function(e) {
     
         let doneBtn = document.createElement('button')
         doneBtn.innerText = "Färdig";
-        doneBtn.style.margin = '0 5px 5px 5px';
+        doneBtn.style.margin = '0 0 5px 5px';
     
         let deletBtn = document.createElement('button')
         deletBtn.innerText = "Radera";
-        deletBtn.style.marginBottom = '5px';
+        deletBtn.style.margin = '0 0 5px 5px';
     
         let li = document.createElement("li");
         li.appendChild(choreToDo);
@@ -42,6 +42,9 @@ choreBtn.addEventListener('click', function(e) {
     
         let choreList = document.getElementById('chore-list');
         choreList.appendChild(li);
+
+        buttonStyle(doneBtn, changeBtn, deletBtn);
+        
         
     } else {
 
@@ -142,3 +145,27 @@ resetBtn.addEventListener('click', function(e){
     doneList.innerHTML = '';
 
 })
+
+function buttonStyle(doneBtn, changeBtn, deletBtn) {
+    doneBtn.addEventListener('mouseover', () => {
+        doneBtn.style.backgroundColor = 'lightgreen';
+    });
+    doneBtn.addEventListener('mouseout', () => {
+        doneBtn.style.backgroundColor = '';
+    });
+
+    changeBtn.addEventListener('mouseover', () => {
+        changeBtn.style.backgroundColor = 'rgb(255, 255, 171)';
+    });
+    changeBtn.addEventListener('mouseout', () => {
+        changeBtn.style.backgroundColor = '';
+    });
+
+    deletBtn.addEventListener('mouseover', () => {
+        deletBtn.style.backgroundColor = 'lightcoral';
+    });
+    deletBtn.addEventListener('mouseout', () => {
+        deletBtn.style.backgroundColor = '';
+    });
+
+}
